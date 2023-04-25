@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 208b2903f3b44b919a495bf7de0eff6b
+labels:
+- Kenshi
+- scripts-core-singleton
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
