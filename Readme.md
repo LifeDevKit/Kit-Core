@@ -1,7 +1,23 @@
-# Install
- - [Verdaccio](https://shlifedev.tistory.com/69) 가 설정 되어있어야 한다.
 
-# 스코프 설정
+# Install
+ - 종속성을 위해 서버설정 및 클라이언트측 로그인이 되어있어야한다.
+ - [Verdaccio](https://shlifedev.tistory.com/69) 서버가 열려 있어야한다.
+
+## 개인 패키지 서버에 로그인
+```
+   > openupm login -r http://package.shlife.dev:4873 -u id -p password -e email --always-auth=true
+```
+
+## 개인 패키지 서버에서 검색하기
+ 아쉽지만 이는 npm을 사용해야한다.
+```
+   > npm -r http://package.shlife.dev:4873 search 검색어
+```
+
+
+ 
+# 프로젝트에서 사용하기
+스코프 레지스트리를 등록해야한다. 하지 않으면 종속성을 다운로드 할 수 없음.
  ```
 "scopedRegistries": [
     {
