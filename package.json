@@ -1,7 +1,8 @@
 ﻿{
   "name": "com.shlifedev.toolkit",
   "displayName": "Kit",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "author" : "shlifedev",
   "unity": "2019.4",
   "description": "livrary",
   "keywords": [
@@ -13,5 +14,8 @@
     "com.acegikmo.shapes" : "4.2.1",
     "com.cysharp.unitask": "2.3.3",
     "com.arongranberg.astar" : "4.3.4"
+  },
+  "publishConfig": {
+    "registry": "http://package.shlife.dev:4873"
   }
 }
