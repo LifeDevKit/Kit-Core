@@ -1,12 +1,7 @@
-﻿using System;
-using System.Linq;
+﻿ 
 using System.Reflection;
 using UnityEditor;
-using UnityEditor.EditorTools;
-using UnityEditor.Experimental.GraphView;
-using UnityEditor.Graphs;
-using UnityEditor.UI;
-using UnityEditor.UIElements;
+using UnityEditor.EditorTools; 
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -27,7 +22,7 @@ namespace Kit
     /// <summary>
     /// 씬 에디터 툴을 쉽게 관리하기 위한 전략
     /// </summary>
-    public abstract class CustomEditor : UnityEditor.Editor, IBomEditor
+    public abstract class KitCustomEditor : UnityEditor.Editor, IBomEditor
     {
         public virtual bool UseDuringScene
         {

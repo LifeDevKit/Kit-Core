@@ -7,7 +7,7 @@ using UnityEngine;
 [CustomEditor(typeof(MeshFilter))]
 [CanEditMultipleObjects]
 public class VisualizeVertexLength : UnityEditor.Editor
-{
+{ 
     [SerializeField] private MeshFilter[] _selectedMeshes = new MeshFilter[2];
     static bool _toggle = false;
 

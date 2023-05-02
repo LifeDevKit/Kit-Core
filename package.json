@@ -1,19 +1,15 @@
-﻿{
+{
   "name": "com.shlifedev.toolkit",
   "displayName": "Kit",
-  "version": "0.0.2",
-  "author" : "shlifedev",
+  "version": "0.0.4",
   "unity": "2019.4",
-  "description": "livrary",
+  "description": "library test",
   "keywords": [
     "sdk"
   ],
   "dependencies": { 
     "com.unity.inputsystem" : "1.5.1",
-    "com.unity.burst" : "1.8.4", 
-    "com.acegikmo.shapes" : "4.2.1",
-    "com.cysharp.unitask": "2.3.3",
-    "com.arongranberg.astar" : "4.3.4"
+    "com.unity.burst" : "1.8.4" 
   },
   "publishConfig": {
     "registry": "http://package.shlife.dev:4873"

@@ -1,0 +1,4 @@
+﻿public class KitEntity : AbstractKitEntity
+{
+        
+}
